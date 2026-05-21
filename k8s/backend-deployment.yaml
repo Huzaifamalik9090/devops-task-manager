@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: YOUR_DOCKERHUB/backend-app:latest
+        image: huzaifa9090/backend-app:latest
+        imagePullPolicy: Never
         ports:
         - containerPort: 5000
